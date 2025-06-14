@@ -7,3 +7,6 @@
 
 4.Domainde artık nesnelerimizi oluşturmaya başlayalım.Bu nesneler Entities klasörüne eklenmeli.Öncelikle müşteri yapımızla başlayalım.Bireysel ve kurumsal müşteri tiplerimiz olacak.Özellikleri kendin verebilirsin.
 
+5.Nesnelerimize ait repository işlemleri için generic bir async repository arayüzü oluşturmanı istiyorum. Bu her nesne için kullanılabilmeli. EntityFrameworkCore kullanacağız. GetAsync, GetListAsync, AnyAsync,AddAsync,AddRangeAsync,UpdateAsync,UpdateRangeAsync,DeleteAsync,DeleteRangeAsync operasyonlarını içermeli. Listeleme operasyonları sayfalama destekli olmalı.Bu arayüzü Core Katmanında mevcut repositories klasörüne ekle
+
+6.Şimdi bu arayüzler için EntityFrameworkCore implementasyonunu generic olarak yine mevcut Core/Repositories altına oluştur
