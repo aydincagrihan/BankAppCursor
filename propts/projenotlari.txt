@@ -1,1 +1,5 @@
 Domain katmanı veritabanı nesnelerini tuttuğumuz katmandır.
+
+Persistance yani veri erişim katmanı Dal Katmanına karşılık gelir
+
+Application layer BLL katmanına denk gelir
