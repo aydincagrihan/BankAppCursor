@@ -1,0 +1,9 @@
+1..Net Core 9 ve C# kullanarak bir bankacılık uygulamasının kredilendirme projesini geliştireceğim. Bu projede Core,Persistence,Application,Domain ve WebApi katmanlarının olmasını istiyorum. Clean Architecture ve CQRS yaklaşımını kullanacağım. Core Katmanı çekirdek katman olacak. Burada yazdığım kodları diğer tüm projelerde kullanabilmeliyim. Boş bir solution oluştur ve ardından gerekli proje katmanlarını oluştur.
+
+2.Domain katmanında sadece Entities klasörü olsun istiyorum.Bu klasör veritabanı varlıklarını barındıracak.Veri tabanı nesneleri Core katmanında oluşturacağımız  Repositories klasöründe base bir sınıftan -Entity- türesin.Bu base nesnede Id,CreatedDate,UpdatedDate,DeletedDate alanları olsun.Id alanı generic olmalı.Id alanı default bir değere sahip olmalı.Öncelikle bu temel nesneyi oluşturalım.Core Katmanı BankApp.Core olarak zaten mevcut.BankApp.Core altında sadece klasör ve entity yapılandırmasını yap
+
+3.  Id için default değeri Entity nesnesinde oluştur.Sadece base entity nesnem var.ID değeri int,guid,string vs.olabilir. default! yapılandırması yap.
+
+
+4.Domainde artık nesnelerimizi oluşturmaya başlayalım.Bu nesneler Entities klasörüne eklenmeli.Öncelikle müşteri yapımızla başlayalım.Bireysel ve kurumsal müşteri tiplerimiz olacak.Özellikleri kendin verebilirsin.
+
